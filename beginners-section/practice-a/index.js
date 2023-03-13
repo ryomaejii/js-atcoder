@@ -9,7 +9,7 @@ function main(input) {
   var c = parseInt(tmp[1], 10);
   var s = input[2];
   //出力
-  console.log("%d %s", a + b + c, s);
+  console.log(`${a + b + c} ${s}`);
 }
 //*この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
 main(require("fs").readFileSync("/dev/stdin", "utf8"));
